@@ -8,7 +8,7 @@
 
 ## 📦 Features
 - 🧠 Node.js backend with WebSocket & REST API
-- 🐍 Python agent to push live stats (CPU, RAM, Disk)
+- 🐍 Python client to push live stats (CPU, RAM, Disk)
 - ⚛️ React dashboard with login & charts (JWT auth)
 - 📊 Recharts for live graphs
 - 📜 Log viewer per device
@@ -28,11 +28,11 @@ cd backend
 node server.js
 ```
 
-### 3. Run Agent
+### 3. Run Client
 ```bash
-cd agent
+cd client
 source venv/bin/activate
-python3 agent.py
+python3 client.py
 ```
 
 ### 4. Run Frontend
@@ -63,7 +63,7 @@ InfraVisor/
 ---
 
 ## 📜 Log Message Format
-Agent can push logs like this:
+Client can push logs like this:
 ```json
 {
   "type": "log",

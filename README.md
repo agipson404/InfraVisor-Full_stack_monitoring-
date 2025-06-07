@@ -2,7 +2,7 @@
 **Created By:** Arthur Gipson  
 📺 **YouTube Video:** [https://youtu.be/d28OVuhgGQE](https://youtu.be/d28OVuhgGQE)
 
-**InfraVisor** is a full-stack infrastructure monitoring dashboard for remote devices. Built using Node.js, React, Python, WebSockets, it enables real-time system telemetry, log streaming, and device management.
+Built using Node.js, React, Python, WebSockets, MongoDB, TailwindCSS, and Recharts, **InfraVisor** is a full-stack infrastructure monitoring tool designed to run on Linux-based systems, enabling real-time telemetry, log streaming, and remote device management.
 
 ---
 
